@@ -118,7 +118,7 @@ app.get("/productos", async (req, res) => {
     res.status(500).send(error)
   }
 }
-)
+) 
 
 //select productos detalle
 app.get("/productos/:id", async (req, res) => {

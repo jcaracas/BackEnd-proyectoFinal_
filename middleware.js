@@ -100,6 +100,7 @@ const comprar = async (email, datosCompra) => {
 
   console.log("Compra agregada con exito");
 }
+
 const obtenerCompras = async (email) => {
   const value = [email]
   const query = "select id from usuarios where email = $1"
